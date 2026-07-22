@@ -23,6 +23,7 @@ const projects: Project[] = [
     solution:
       "חנות מלאה עם סליקת אשראי אמיתית (Hyp), ניהול מוצרים ושרת ייעודי — רצה היום בפרודקשן ומקבלת הזמנות",
     tags: ["React", "Express", "Payments"],
+    live: "https://stav-cosmetics.com",
   },
   {
     title: "Gan Nuna Banuna — מערכת ניהול גן ילדים",
