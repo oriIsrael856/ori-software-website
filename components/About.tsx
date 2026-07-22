@@ -11,7 +11,7 @@ const stats = [
 
 export default function About() {
   return (
-    <section id="about" className="mx-auto max-w-6xl scroll-mt-24 px-5 py-28">
+    <section id="about" className="mx-auto max-w-6xl scroll-mt-24 overflow-x-clip px-5 py-28">
       <SectionHeading index="02" title="נעים להכיר" />
 
       <div className="grid items-center gap-12 md:grid-cols-[1.1fr_0.9fr]">
@@ -53,7 +53,7 @@ export default function About() {
 
         <Reveal delay={0.15}>
           <div className="relative mx-auto max-w-md">
-            <div className="glow absolute -inset-10 rounded-full" aria-hidden />
+            <div className="glow absolute -inset-4 rounded-full md:-inset-10" aria-hidden />
             <div className="relative -rotate-2 overflow-hidden rounded-3xl border border-line transition-transform duration-500 hover:rotate-0">
               <Image
                 src="/profile.jpeg"

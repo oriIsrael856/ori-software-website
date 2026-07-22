@@ -28,11 +28,18 @@ html {
   scroll-behavior: smooth;
 }
 
+/* overflow-x: clip (ולא hidden) — hidden על body לא נאכף ב-iOS Safari
+   ומאפשר גרירה אופקית; clip נאכף בכל הדפדפנים וגם לא יוצר scroll container */
+html,
+body {
+  overflow-x: hidden;
+  overflow-x: clip;
+}
+
 body {
   background: var(--ink);
   color: var(--text);
   font-family: var(--font-rubik), sans-serif;
-  overflow-x: hidden;
 }
 
 ::selection {
