@@ -9,12 +9,10 @@ export const site = {
   positioning:
     "אני מאתר צרכים וכאבים אמיתיים בעסק שלכם — ופותר אותם עם טכנולוגיה שעובדת.",
 
-  // TODO: לעדכן מספר וואטסאפ בפורמט בינלאומי בלי + (למשל 972501234567)
-  whatsapp: "972500000000",
+  whatsapp: "972549913804",
   whatsappMessage: "היי, הגעתי מהאתר שלך ואשמח לדבר על פרויקט",
 
-  // TODO: לעדכן קישור לינקדאין אמיתי
-  linkedin: "https://www.linkedin.com/in/your-profile",
+  linkedin: "https://www.linkedin.com/in/oriisrael/",
   github: "https://github.com/oriIsrael856",
   email: "orisrael1234@gmail.com",
 
