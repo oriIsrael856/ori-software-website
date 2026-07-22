@@ -15,11 +15,15 @@ const rubik = Rubik({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(site.url),
   title: `${site.brand} — ${site.role}`,
   description: site.positioning,
+  alternates: { canonical: "/" },
   openGraph: {
     title: `${site.brand} — ${site.role}`,
     description: site.positioning,
+    url: site.url,
+    siteName: site.brand,
     locale: "he_IL",
     type: "website",
     images: ["/logo.jpeg"],

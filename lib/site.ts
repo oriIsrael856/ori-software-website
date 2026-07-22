@@ -18,7 +18,7 @@ export const site = {
   github: "https://github.com/oriIsrael856",
   email: "orisrael1234@gmail.com",
 
-  url: "https://example.com", // TODO: דומיין סופי
+  url: "https://orisoftware.co.il",
 } as const;
 
 export const whatsappLink = `https://wa.me/${site.whatsapp}?text=${encodeURIComponent(
